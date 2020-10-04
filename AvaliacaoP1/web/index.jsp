@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <%@include file="WEB-INF/jspf/head-reference.jspf" %>
-        <title>JSP Page</title>
+        <title>Início</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
