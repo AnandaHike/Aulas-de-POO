@@ -5,12 +5,13 @@
 --%>
 
 <%@page import="br.edu.fatecpg.poo.Disciplina"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="br.edu.fatecpg.poo.web.DbListener"%>
+<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>InÃ­cio</title>
+        <title>Início</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
@@ -18,11 +19,10 @@
         
         <div class="container-fluid">
             
-        <h1>AvaliaÃ§Ã£o Bimestral - P1</h1>  
+        <h1>Avaliação Bimestral - P1</h1>  
         <h2>Ananda Hike Brunetti Fernandes</h2>
         <h3>RA: 1290481912001</h3>
-        <% Disciplina obj = new Disciplina ("nome", "ementa", "ciclo"); %>
-        <h4>Quantidade de matÃ©ria: <%= obj.getList().size() %> </h4>
+        <h4>Quantidade de matéria: <%= Disciplina.getList().size() %> </h4>
         </div>
         <%@include file="WEB-INF/jspf/body-reference.jspf" %>
     </body>

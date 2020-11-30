@@ -1,5 +1,5 @@
 <%-- any content can be specified here e.g.: --%>
-<%@ page pageEncoding="UTF-8" %>
+<%@ page pageEncoding="ISO-8859-1" %>
 
 <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,13 +11,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="index.jsp">IN√çCIO</a>
+        <a class="nav-link" href="<%=request.getContextPath()%>/index.jsp">INÕCIO</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="sobre.jsp">SOBRE</a>
+        <a class="nav-link" href="<%=request.getContextPath()%>/sobre.jsp">SOBRE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="disciplinas.jsp">MINHAS DISCIPLINAS</a>
+        <a class="nav-link" href="<%=request.getContextPath()%>/disciplinas.jsp">MINHAS DISCIPLINAS</a>
     </ul>
   </div>
 </nav>

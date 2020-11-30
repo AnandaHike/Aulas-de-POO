@@ -4,7 +4,8 @@
     Author     : nanda
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
+<%@page import="br.edu.fatecpg.poo.web.DbListener"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,7 +20,7 @@
         <h1>Sobre</h1>  
         <h2>Ananda Hike Brunetti Fernandes</h2>
         <h3>RA: 1290481912001</h3>
-        <h4>RepositÃ³rio Github <a href="https://github.com/AnandaHike/Aulas-de-POO">Link</a></h4>
+        <h4>Repositório Github <a href="https://github.com/AnandaHike/Aulas-de-POO">Link</a></h4>
         </div>
         <%@include file="WEB-INF/jspf/body-reference.jspf" %>
     </body>
