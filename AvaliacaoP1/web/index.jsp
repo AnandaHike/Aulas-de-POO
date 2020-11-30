@@ -10,12 +10,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <%@include file="WEB-INF/jspf/head-reference.jspf" %>
         <title>Início</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
-        <%@include file="WEB-INF/jspf/menu.jspf" %>
+        <%@include file="WEB-INF/jspf/head-reference.jspf" %>
+        
         <div class="container-fluid">
             
         <h1>Avaliação Bimestral - P1</h1>  
@@ -24,8 +24,6 @@
         <% Disciplina obj = new Disciplina ("nome", "ementa", "ciclo"); %>
         <h4>Quantidade de matéria: <%= obj.getList().size() %> </h4>
         </div>
-        <%@include file="WEB-INF/jspf/rodape.jspf" %>
         <%@include file="WEB-INF/jspf/body-reference.jspf" %>
-      
     </body>
 </html>

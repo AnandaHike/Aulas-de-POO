@@ -64,12 +64,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <%@include file="WEB-INF/jspf/head-reference.jspf" %>
         <title>Minhas disciplinas</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
-         <%@include file="WEB-INF/jspf/menu.jspf" %>
+        <%@include file="WEB-INF/jspf/head-reference.jspf" %>
         <hr/>
         <h1 class="container-fluid">Minhas Disciplinas</h1>
         <hr/>
@@ -105,6 +104,5 @@
         </table>
         <p class="container-fluid"><a href="index.jsp">Voltar</a></p>
         <%@include file="WEB-INF/jspf/body-reference.jspf" %>
-        <%@include file="WEB-INF/jspf/rodape.jspf" %>
     </body>
 </html>

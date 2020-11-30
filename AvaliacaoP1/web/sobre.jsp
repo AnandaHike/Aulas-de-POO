@@ -9,12 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <%@include file="WEB-INF/jspf/head-reference.jspf" %>
         <title>Sobre</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
-        <%@include file="WEB-INF/jspf/menu.jspf" %>
+        <%@include file="WEB-INF/jspf/head-reference.jspf" %>
         <div class="container-fluid">
             
         <h1>Sobre</h1>  
@@ -22,8 +21,6 @@
         <h3>RA: 1290481912001</h3>
         <h4>Repositório Github <a href="https://github.com/AnandaHike/Aulas-de-POO">Link</a></h4>
         </div>
-        <%@include file="WEB-INF/jspf/rodape.jspf" %>
         <%@include file="WEB-INF/jspf/body-reference.jspf" %>
-      
     </body>
 </html>
