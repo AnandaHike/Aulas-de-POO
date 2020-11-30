@@ -5,6 +5,7 @@
  */
 package br.edu.fatecpg.poo;
 
+import br.edu.fatecpg.poo.web.DbListener;
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -64,7 +65,7 @@ public class Disciplina {
         
     }
     
-    public static ArrayList<Disciplina> getList() {
+    public static ArrayList<Disciplina> getList () throws Exception {
         ArrayList<Disciplina> lista = new ArrayList<>();
         Connection con = DbListener.getConnection();
         Statement stmt = con.createStatement();
@@ -81,7 +82,7 @@ public class Disciplina {
         stmt.close();
         con.close();
         return lista;
-        }
+    }
     
     public static void inserirDisciplina(String nome, String ementa, String ciclo, double nota)throws Exception{
         Connection con = DbListener.getConnection();
