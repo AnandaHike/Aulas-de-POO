@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <%
    String exceptionMessage = null;
-    if(request.getParameter("FormInserir") != null){
+    if(request.getParameter("Cancelar") != null){
         response.sendRedirect(request.getRequestURI());
     }
     if(request.getParameter("FormInserir") != null){
@@ -98,7 +98,7 @@
                         <div>Ciclo: </div>
                         <div><input type="text" name="ciclo"/></div><br>
                         <div>Nota: </div>
-                        <div><input type="text" name="nota" step="0.01" min="0.00" max="10.00"/></div><br>
+                        <div><input type="number" name="nota" step="0.01" min="0.00" max="10.00"/></div><br>
                         <input type="submit" name="FormInserir" value="Inserir"/>
                         <input type="submit" name="Cancelar" value="Cancelar"/>
                     </form>
