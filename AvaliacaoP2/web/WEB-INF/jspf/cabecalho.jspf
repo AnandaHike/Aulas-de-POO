@@ -2,7 +2,7 @@
 <%@ page pageEncoding="UTF-8" %>
 <div style="background-color: #D8BFD8" class="container-fluid">
   <div class="card-body">
-    <h4 class="card-title">Projeto 01 - Cálculo de Amortização</h4>
+    <h4 class="card-title">Avaliação P1</h4>
     <p class="card-text"><strong>Faculdade de Tecnologia de Praia Grande</strong><br>
         4º Ciclo - Vespertino
     </p>
